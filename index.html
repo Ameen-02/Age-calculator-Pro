@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Advanced Age Calculator</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <h1>Age Calculator</h1>
+  <div>
+    <button id="langToggle">हिंदी</button>
+    <button id="modeToggle">🌙</button>
+  </div>
+</header>
+
+<main class="container">
+
+<!-- INPUT CARD -->
+<section class="card">
+  <label>Date of Birth</label>
+  <input type="date" id="dob">
+
+  <label>Time of Birth (optional)</label>
+  <input type="time" id="tob">
+
+  <div class="buttons">
+    <button id="calcBtn">Calculate</button>
+    <button id="resetBtn">Reset</button>
+  </div>
+
+  <p id="error" class="error"></p>
+</section>
+
+<!-- LOADER -->
+<div id="loader" class="loader hidden"></div>
+
+<!-- RESULT CARD -->
+<section id="resultCard" class="card hidden">
+
+<h2>Your Age</h2>
+<div id="ageResult"></div>
+
+<div class="grid">
+<div><b>Total Days</b><p id="days"></p></div>
+<div><b>Weeks</b><p id="weeks"></p></div>
+<div><b>Hours</b><p id="hours"></p></div>
+<div><b>Minutes</b><p id="minutes"></p></div>
+<div><b>Seconds</b><p id="seconds"></p></div>
+</div>
+
+<h3>Birthday Info</h3>
+<p id="nextBirthday"></p>
+<p id="countdown"></p>
+
+<h3>Zodiac</h3>
+<p id="zodiac"></p>
+
+<h3>Life Path Number</h3>
+<p id="lifePath"></p>
+
+<h3>Life Progress</h3>
+<div class="progress">
+  <div id="progressBar"></div>
+</div>
+
+<div class="buttons">
+<button id="copyBtn">Copy</button>
+<button id="shareBtn">Share</button>
+</div>
+
+</section>
+
+<!-- HISTORY -->
+<section class="card">
+<h3>Last Calculations</h3>
+<ul id="history"></ul>
+</section>
+
+</main>
+
+<!-- AdMob Banner Placeholder -->
+<div class="ad-slot">AdMob Banner</div>
+
+<script src="script.js"></script>
+</body>
+</html>
