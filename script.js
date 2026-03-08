@@ -159,3 +159,12 @@ function shake(){
 document.getElementById("langToggle").onclick=()=>{
  alert("Multi-language system ready — connect translation JSON later.");
 }
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('service-worker.js')
+      .then(reg => console.log("Service Worker Registered"))
+      .catch(err => console.log("SW Error", err));
+  });
+}
+
