@@ -1,11 +1,28 @@
 {
-  "background_color": "#ffffff",
-  "dir": "ltr",
-  "display": "standalone",
   "name": "Age Calculator Pro",
-  "orientation": "any",
-  "scope": "/",
-  "short_name": "ameen-02.github",
-  "start_url": "/",
-  "theme_color": "#ffffff"
+  "short_name": "AgeCalc",
+  "id": "com.ameen.agecalculatorpro",
+  "description": "Smart Age Calculator – Calculate your exact age in years, months, days, hours, minutes, and seconds. Includes birthday countdown, zodiac sign, life path number, and fun age facts with a beautiful modern UI.",
+  "start_url": "https://ameen-02.github.io/Age-calculator-Pro/",
+  "scope": "/Age-calculator-Pro/",
+  "display": "standalone",
+  "display_override": ["standalone", "fullscreen"],
+  "background_color": "#ffffff",
+  "theme_color": "#4FACFE",
+  "orientation": "portrait",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["tools", "productivity"],
+  "icons": [
+    {
+      "src": "sob1.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "sob2.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
 }
