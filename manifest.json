@@ -1,0 +1,28 @@
+{
+  "name": "Age-calculator-Pro",
+  "short_name": "Age calculator",
+  "id": "com.ameen.kidsmathadventure",
+  "description": "Kids Math Adventure is a fun and educational math quiz game for children. It helps kids practice addition, subtraction, multiplication, and division through interactive quizzes. Colorful visuals, sounds, and rewards keep kids engaged while learning.",
+  "start_url": "https://ameen-02.github.io/Kids-math-adventure/",
+  "scope": "https://ameen-02.github.io/Kids-math-adventure/",
+  "display": "standalone",
+  "display_override": ["standalone", "fullscreen"],
+  "background_color": "#ffffff",
+  "theme_color": "#4FACFE",
+  "orientation": "portrait",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["education", "kids", "games"],
+  "icons": [
+    {
+      "src": "sob1.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "sob2.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
