@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="google-site-verification" content="X2x25q0K8HH6bgb1ADDxF6cNBiTCeJmjxM3ezW-GYg4" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Advanced Age Calculator</title>
+<title>Age Calculator Pro</title>
 <link rel="manifest" href="manifest.json">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
@@ -88,8 +88,15 @@
 <div class="ad-slot">AdMob Banner</div>
 
 <script src="script.js"></script>
+  
+ <script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("service-worker.js");
+}
+</script> 
 </body>
 </html>
+
 
 
 
