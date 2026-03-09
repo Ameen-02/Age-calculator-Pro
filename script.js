@@ -157,7 +157,8 @@ function shake(){
 
 // LANGUAGE TOGGLE
 document.getElementById("langToggle").onclick=()=>{
- alert("Multi-language system ready — connect translation JSON later.");
+ alert("coming soon😉");
 }
+
 
 
